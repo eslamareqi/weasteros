@@ -21,7 +21,7 @@
                     <h1>تحويل النص إلى صوت</h1>
                     <p>الصق النص الإنجليزي، اختر صوتك، ثم استمع أو حمّل الملف</p>
                 </div>
-                <div class="logo-icon" id="apiKeyTrigger" title="إعداد مفتاح API">
+                <div class="logo-icon" id="apiKeyTrigger" title="حالة الخدمة الآمنة">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M2 10v3"/>
                         <path d="M6 6v11"/>
@@ -128,14 +128,12 @@
         </footer>
     </div>
 
-    <!-- API Key Modal (Optional Setup for Standalone Hosting) -->
+    <!-- Secure server status modal -->
     <div id="apiModal" class="modal-backdrop hidden">
         <div class="modal-card">
-            <h3>إعداد مفتاح Gemini API 🔑</h3>
-            <p>أدخل مفتاح Google AI Studio الخاص بك لتوليد الصوت بجودة عالية، أو اتركه فارغاً لاستخدام محرك النطق البريطاني المدمج في المتصفح مجاناً.</p>
-            <input type="password" id="apiKeyInput" dir="ltr" placeholder="AIzaSy..." />
+            <h3>الخدمة العامة مفعّلة</h3>
+            <p>يستخدم الموقع خادمًا آمنًا لتوليد الصوت. المفتاح محفوظ على الخادم ولا يظهر للزوار أو داخل GitHub. عند تعذر الخدمة، يعمل النطق البريطاني المدمج في المتصفح تلقائيًا.</p>
             <div class="modal-actions">
-                <button type="button" id="saveKeyBtn" class="save-btn">حفظ المفتاح</button>
                 <button type="button" id="closeModalBtn" class="cancel-btn">إغلاق</button>
             </div>
         </div>

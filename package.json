@@ -1,0 +1,12 @@
+{
+  "name": "weasteros",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public text-to-speech website with a protected Gemini proxy",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
